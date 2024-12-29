@@ -11,6 +11,7 @@ public class TransactionServiceImpl {
 
         secondAccount.addMoney(amount);
         return true;
+
     }
 
     public void creditAccount(final Account account, final int amount) {
